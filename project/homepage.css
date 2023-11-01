@@ -1,0 +1,157 @@
+
+*{
+
+    margin: 0px 10px;
+    
+
+}
+nav{
+    flex: 1;
+    display: inline;
+   font-weight: bold;   
+}
+
+nav ul{
+
+    display: inline-block;
+    float: right;
+
+    
+    
+}
+nav ul li{
+
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+nav ul li:hover{
+
+    color: rgb(10, 10, 10);
+    background-color: rgb(30, 80, 21);
+
+}
+h1{
+
+    display:inline;
+    margin: 0px 10px;
+    }
+.top{
+    margin: 0px 20px;
+    color: rgb(47, 1, 232);
+    background-color: rgb(242, 234, 14);
+
+
+
+   
+}
+.text{
+    margin: 0px 20px;
+    display: flex
+    
+}
+.search{
+   margin: 0px 400px;
+   padding: 0px 50px;
+   
+}
+img{
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    
+    
+}
+
+img:hover{
+
+    opacity: 0.8;
+    
+}
+
+.heai{
+    position: sticky;
+    top: 10px;
+    display: inline;
+}
+.bar{
+    margin: 8px;
+    width: 500px;
+    border: 1px;
+    border-radius: 22px;
+    padding: 0px 12px;
+
+}
+.not{
+    display: flex;
+    justify-content: center;
+    
+
+}
+span{
+
+   display: inline;
+}
+.box{
+
+    margin-top: 60px;
+    cursor: pointer;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 6fr 6fr;
+    text-align: center;
+    margin :10px 120px;
+    grid-gap: 20px;
+    
+}
+@media only screen and (max-width:860px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        grid-template-rows: 4fr 4fr 4fr;
+        grid-gap: 20px;
+        
+        
+    }
+}
+@media only screen and(max-width:530px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-rows: 12fr ;
+
+
+    }
+    
+}
+
+
+
+
+.mobiles{
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 12fr;
+    justify-content: space-between;
+    margin: 0px 10px;
+    overflow-x: scroll;
+    
+
+
+}
+.icon{
+
+    position: relative;
+}
+
+
+label{
+
+    font-size: large;
+}
+
+
+
